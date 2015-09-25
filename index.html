@@ -1,0 +1,360 @@
+<!DOCTYPE html>
+<html ng-app="sage-wall">
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
+    <meta name="description" content="Sage Wall's personal website and online resume">
+    <meta name="author" content="Sage Wall">
+    <title>Sage Wall</title>
+
+    <!-- Icons -->
+    <meta name="msapplication-TileColor" content="#ffffff">
+    <meta name="msapplication-TileImage" content="images/ms-icon-144x144.png">
+    <meta name="theme-color" content="#ffffff">
+    <link rel="apple-touch-icon" sizes="57x57" href="images/apple-icon-57x57.png">
+    <link rel="apple-touch-icon" sizes="60x60" href="images/apple-icon-60x60.png">
+    <link rel="apple-touch-icon" sizes="72x72" href="images/apple-icon-72x72.png">
+    <link rel="apple-touch-icon" sizes="76x76" href="images/apple-icon-76x76.png">
+    <link rel="apple-touch-icon" sizes="114x114" href="images/apple-icon-114x114.png">
+    <link rel="apple-touch-icon" sizes="120x120" href="images/apple-icon-120x120.png">
+    <link rel="apple-touch-icon" sizes="144x144" href="images/apple-icon-144x144.png">
+    <link rel="apple-touch-icon" sizes="152x152" href="images/apple-icon-152x152.png">
+    <link rel="apple-touch-icon" sizes="180x180" href="images/apple-icon-180x180.png">
+    <link rel="icon" type="image/png" sizes="192x192" href="images/android-icon-192x192.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="images/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="96x96" href="images/favicon-96x96.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="images/favicon-16x16.png">
+    <link rel="manifest" href="/manifest.json">
+
+    <!-- Bootstrap core CSS -->
+    <link href="css/bootstrap.css" rel="stylesheet">
+    <!-- ESRI JavaScript API CSS -->
+    <link rel="stylesheet" type="text/css" href="http://js.arcgis.com/3.14/esri/css/esri.css">
+    <!-- Application CSS -->
+    <link href="css/sage-wall.css" rel="stylesheet">
+
+</head>
+<body>
+<nav class="navbar navbar-inverse navbar-fixed-top">
+    <div class="container">
+        <div class="navbar-header">
+            <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar"
+                    aria-expanded="false" aria-controls="navbar"><span class="sr-only">Toggle navigation</span> <span
+                    class="icon-bar"></span> <span class="icon-bar"></span> <span class="icon-bar"></span></button>
+            <a class="navbar-brand" href="#">Sage Wall, MA</a></div>
+        <div id="navbar" class="collapse navbar-collapse">
+            <ul class="nav navbar-nav">
+                <li class="active"><a href="#mapDiv">Map</a></li>
+                <li><a href="#resume">Resume</a></li>
+                <li><a href="#projects">Projects</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </div>
+        <!--/.nav-collapse --> </div>
+</nav>
+<div id="underDevelopment" class="container under-development">
+    <h1>...Website Still being developed...</h1>
+</div>
+<div id="baseballAppDiv" class="container navbar-target" >
+    <button id="baseballAppButton" type="button" class="btn btn-info btn-block" onclick="location.href='http://calvin.sagewall.io/baseball/index.html';">Visit the HTML5 Baseball Application</button>
+</div>
+<div id="mapDiv" class="container navbar-target" ng-controller="MapController">
+    <div class="container map-container"><h2>Baseball Map</h2>
+        <div class="map-legend-row">
+            <div class="row">
+                <div class="col-md-10">
+                    <esri-map id="map" class='map' webmap-id="4afc689ca51f4333a2d179ee160ea965" center="map.center"
+                              zoom="map.zoom"
+                              map-options="map.mapOptions">
+                        <div esri-legend target-id="legend"></div>
+                    </esri-map>
+                    <p>Lat: {{ map.center.lat | number:3 }}, Lng: {{ map.center.lng | number:3 }}, Zoom: {{
+                        map.zoom}}</p>
+                </div>
+                <div class="col-md-2">
+                    <div id="legend" class="legend"></div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<div id="resume" class="container navbar-target">
+    <div id="about" class="container">
+        <div class="container"><h2>About Me</h2>
+            <div class="container">
+                <div class="container-fluid">
+                    <div class="row">
+                        <div class="col-md-12">
+                            <p>I am a GIS analyst and developer with 15 years of experience. Currently, I develop custom web mapping applications and tools for Jefferson County Colorado. Previously, I’ve created multiple web mapping applications and developed custom tools for visualizing and assessing marine magnetic surveys for archaeological resources for the National Park Service and the Bureau of Offshore Energy Management. I have provided GIS analysis and mapping contributions to multiple biological and environmental assessments. I started my professional career as a GIS Specialist mapping archaeological sites along natural gas pipelines and transmission lines. In graduate school I examined prehistoric landscape use and settlement pattern in southwestern Wyoming using ESRI software.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div id="knowledge" class="container">
+        <div class="container"><h2>Knowledge and Skills</h2>
+            <div class="container">
+                <div class="container-fluid">
+                    <div class="row">
+                        <div class="col-md-12">
+                            <ul class="list-inline">
+                                <li class="skill">ArcGIS for Desktop</li>
+                                <li class="skill">ArcGIS for Server</li>
+                                <li class="skill">ESRI JavaScript API</li>
+                                <li class="skill">ESRI .NET Runtime API</li>
+                                <li class="skill">ESRI iOS Runtime API</li>
+                                <li class="skill">ESRI Leaflet API</li>
+                                <li class="skill">HTML5</li>
+                                <li class="skill">Bootstrap</li>
+                                <li class="skill">JavaScript</li>
+                                <li class="skill">Python</li>
+                                <li class="skill">arcpy</li>
+                                <li class="skill">numpy</li>
+                                <li class="skill">pandas</li>
+                                <li class="skill">matplotlib</li>
+                                <li class="skill">C#</li>
+                                <li class="skill">.NET</li>
+                                <li class="skill">ArcObjects</li>
+                                <li class="skill">Visual Studio</li>
+                                <li class="skill">iOS application development</li>
+                                <li class="skill">Objective C</li>
+                                <li class="skill">XCode</li>
+                                <li class="skill">ArcGIS Online</li>
+                                <li class="skill">ArcGIS WebApp Builder</li>
+                                <li class="skill">ArcGIS Collector</li>
+                                <li class="skill">Geoserver</li>
+                                <li class="skill">Open Layers</li>
+                                <li class="skill">ArcSDE for SQL Server and Oracle</li>
+                                <li class="skill">ArcGIS 3D Analyst</li>
+                                <li class="skill">ArcGIS Spatial Analyst</li>
+                                <li class="skill">Geodatabase topology</li>
+                                <li class="skill">Geodatabase domains</li>
+                                <li class="skill">Geodatabase subtypes</li>
+                                <li class="skill">Geodatabase replication</li>
+                                <li class="skill">Geodatabase versioning</li>
+                                <li class="skill">Geoprocessing</li>
+                                <li class="skill">GIS analysis</li>
+                                <li class="skill">GIS modeling</li>
+                                <li class="skill">Geocortex</li>
+                                <li class="skill">Incline</li>
+                                <li class="skill">GPS survey</li>
+                                <li class="skill">Instrument survey</li>
+                                <li class="skill">Trimble GPS Pathfinder Office</li>
+                                <li class="skill">TerraSync</li>
+                                <li class="skill">ArcPad</li>
+                                <li class="skill">LiDAR</li>
+                                <li class="skill">MARS</li>
+                                <li class="skill">FGDC metadata</li>
+                                <li class="skill">Microsoft Azure</li>
+                                <li class="skill">Amazon EC2</li>
+                                <li class="skill">Microsoft SQL Server</li>
+                                <li class="skill">Oracle</li>
+                                <li class="skill">PostgreSQL</li>
+                                <li class="skill">PostGIS</li>
+                                <li class="skill">Google Earth</li>
+                                <li class="skill">KML</li>
+                                <li class="skill">Adobe Illustrator</li>
+                                <li class="skill">Adobe Photoshop</li>
+                                <li class="skill">Microsoft Office</li>
+                                <li class="skill">Registered Professional Archaeologist</li>
+                                <li class="skill">NEPA</li>
+                                <li class="skill">NHPA</li>
+                                <li class="skill">ARPA</li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div id="experience" class="container">
+        <div class="container"><h2>Experience</h2>
+            <div class="container">
+                <div class="container-fluid">
+                    <div class="row">
+                        <div class="col-md-12">
+                            <h3>Jefferson County Colorado, Senior GIS Analyst (2/2014 - Present)</h3>
+                            <ul class="list-group">
+                                <li class="list-group-item">Develop and maintain the county’s web mapping applications using the ESRI
+                                    JavaScript API
+                                </li>
+                                <li class="list-group-item">Administrator of the county’s ArcGIS Servers</li>
+                                <li class="list-group-item">Administrator of the county’s ArcGIS Online account</li>
+                                <li class="list-group-item">Create and maintain ArcGIS for Server services</li>
+                                <li class="list-group-item">Create layers and maps on ArcGIS Online</li>
+                                <li class="list-group-item">Develop ArcGIS add-ins, tools and scripts using Python and C# ArcObjects
+                                </li>
+                                <li class="list-group-item">Develop native iOS applications using Objective-C and XCode</li>
+                                <li class="list-group-item">Produce paper maps and atlases in ArcGIS Desktop</li>
+                                <li class="list-group-item">Provide GIS support to the Jefferson County Emergency Operations Center</li>
+                                <li class="list-group-item">Member of the IT Security Team</li>
+                                <li class="list-group-item">Maintain accounting records in QuickBooks</li>
+                            </ul>
+                            <h3 class="list-group-item-heading">Colorado State University, Research Associate (3/2011 – 2/1014)</h3>
+                            <ul class="list-group">
+                                <li class="list-group-item">Participated in a cooperative agreement with the National Park Service (NPS)
+                                </li>
+                                <li class="list-group-item">Provided GIS and GPS technical support to NPS staff</li>
+                                <li class="list-group-item">Developed ArcGIS add-ins and tools using Python and C# .NET ArcObjects</li>
+                                <li class="list-group-item">Developed an ArcGIS python toolbox to analyze marine magnetic surveys</li>
+                                <li class="list-group-item">Incorporated NPS GIS data into new ArcSDE for SQL Server geodatabases</li>
+                                <li class="list-group-item">Created and maintained ArcGIS for Server services</li>
+                                <li class="list-group-item">Created maps and atlases</li>
+                                <li class="list-group-item">Created visual simulations using ArcScene and Google Earth</li>
+                                <li class="list-group-item">Developed internet based map applications using Geocortex, Silverlight and
+                                    JavaScript
+                                </li>
+                                <li class="list-group-item">Wrote training materials for ArcPad, Pathfinder Office and TerraSync GPS
+                                    software
+                                </li>
+                                <li class="list-group-item">Trained NPS staff in ESRI ArcGIS products and GPS data collection</li>
+                                <li class="list-group-item">Member of the GPS and Mobile Mapping Subcommittee to the NPS GIS Council
+                                </li>
+                                <li class="list-group-item">Member of the Cultural Resources Subcommittee to the NPS GIS Council</li>
+                                <li class="list-group-item">Mentored and trained interns</li>
+                            </ul>
+                            <h3>SWCA Environmental Consultants, GIS Analyst (10/2008 – 3/2011)</h3>
+                            <ul class="list-group">
+                                <li class="list-group-item">Provided GIS support to biological, paleontological and cultural resource
+                                    scientists
+                                </li>
+                                <li class="list-group-item">Analyzed project impacts to biological, paleontological and cultural
+                                    resources
+                                </li>
+                                <li class="list-group-item">Incorporated differentially corrected GPS data into existing GIS datasets
+                                </li>
+                                <li class="list-group-item">Developed ArcGIS scripts and tools using Python</li>
+                                <li class="list-group-item">Developed custom open source internet based map products using PHP and KML
+                                </li>
+                                <li class="list-group-item">Projects ranged in size from 5-acre surveys blocks to multi-state utility
+                                    corridors
+                                </li>
+                                <li class="list-group-item">Mentored and trained junior members of the team</li>
+                            </ul>
+                            <h3>Alpine Archaeological Consultants, GIS Specialist (7/2004 to 5/2008)</h3>
+                            <ul class="list-group">
+                                <li class="list-group-item">Staff archaeologist and GIS specialist</li>
+                                <li class="list-group-item">Trained staff in ESRI ArcGIS products and Trimble sub-meter GPS survey</li>
+                                <li class="list-group-item">Produced report figures and performed geospatial analysis for archaeological
+                                    reports
+                                </li>
+                            </ul>
+                            <h3>University of Wyoming, Graduate Student (8/2000 to 7/2004)</h3>
+                            <ul class="list-group">
+                                <li class="list-group-item">Used ArcGIS to study the spatial distribution of cultural resources.</li>
+                                <li class="list-group-item">Used ArcGIS spatial analysis tools and GPS to research Native American
+                                    landscape
+                                    use in southwest Wyoming as part of a National Science Foundation grant.
+                                </li>
+                                <li class="list-group-item">Digitized archaeological project and site locations in Yellowstone National
+                                    Park.
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div id="education" class="container">
+        <div class="container"><h2>Education</h2>
+            <div class="container">
+                <div class="container-fluid">
+                    <div class="row">
+                        <div class="col-md-12">
+                            <p><b>2006</b> Master of Arts (Anthropology) <i>University of Wyoming</i></p>
+                            <p><b>1999</b> Bachelor of Science (Anthropology) <i>University of Utah</i></p>
+                            <p><b>1997</b> Associate of Science (General Studies) <i>Weber State University</i></p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div id="publications" class="container">
+        <div class="container"><h2>Publications</h2>
+            <div class="container">
+                <div class="container-fluid">
+                    <div class="row">
+                        <div class="col-md-12">
+                            <p><b>Multiple Approaches to Formation Processes: The Pine Spring Site, Southwest
+                                Wyoming</b>. <i>Geoarchaeology, an International Journal</i>. Vol. 21, No. 6, 615-638. (2006)
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div id="thesis" class="container">
+        <div class="container"><h2>Thesis</h2>
+            <div class="container">
+                <div class="container-fluid">
+                    <div class="row">
+                        <div class="col-md-12">
+                            <p><b>Prehistoric Archaeology, Water and Sand: A GIS Analysis of the Moxa Arch Study Area of Southwestern Wyoming</b>. <i>Unpublished M.A. thesis, Department of Anthropology, University of
+                                Wyoming, Laramie</i>. (2006)
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div id="organizations" class="container">
+        <div class="container"><h2>Professional Organizations</h2>
+            <div class="container">
+                <div class="container-fluid">
+                    <div class="row">
+                        <div class="col-md-12">
+                            <h4>GIS Colorado</h4>
+                            <h4>Register of Professional Archaeologists</h4>
+                            <h4>Society for American Archaeology</h4>
+                            <h4>Wyoming Association of Professional Archaeologists</h4>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div id="reports" ng-controller="ReportsController as reportsCtrl" class="container">
+        <div class="container"><h2>Reports</h2>
+            <div class="container" ng-repeat="report in reportsCtrl.reports">
+                <reports-description></reports-description>
+            </div>
+        </div>
+    </div>
+</div>
+<div id="projects" ng-controller="ProjectsController as projectsCtrl" class="container navbar-target">
+    <div class="container"><h2>Projects</h2>
+        <div class="container" ng-repeat="project in projectsCtrl.projects">
+            <project-description></project-description>
+        </div>
+    </div>
+</div>
+
+<div id="contact" class="container navbar-target">
+    <div>
+        <address>
+            <strong>Sage Wall, MA, RPA</strong><br>
+            <a href="mailto:#">sagemaps@gmail.com</a>
+        </address>
+    </div>
+</div>
+
+<!-- ESRI JavaScript API -->
+<script type="text/javascript" src="http://js.arcgis.com/3.14compact"></script>
+<!-- Angular JS -->
+<script src="js/angular.js"></script>
+<!-- UI Bootstrap -->
+<script src="js/ui-bootstrap-0.13.4.js"></script>
+<!-- Angular ESRI Map -->
+<script src="js/angular-esri-map.js"></script>
+<!-- Application JavaScript -->
+<script src="js/sage-wall.js"></script>
+
+</body>
+</html>

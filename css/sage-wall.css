@@ -1,0 +1,48 @@
+body {
+    padding-top: 60px;
+}
+@media (max-width: 979px) {
+    body {
+        padding-top: 0;
+    }
+}
+
+.navbar-target {
+    padding-top: 60px;
+}
+
+.legend {
+    height: 600px;
+    overflow: auto;
+}
+
+.map {
+    height: 600px;
+}
+
+.map-legend-row {
+    border: solid;
+    padding: 10px;
+}
+
+.under-development {
+    padding-top: 60px;
+    color: red;
+    text-align: center;
+}
+
+.project-row {
+    padding-bottom: 20px;
+}
+
+.report-row {
+    padding-bottom: 20px;
+}
+
+.skill {
+    font-weight: 600;
+    padding-right: 5px;
+    padding-left: 5px;
+    margin: 5px;
+    background-color: lightgray;
+}
