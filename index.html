@@ -10,23 +10,27 @@
     <title>Sage Wall</title>
 
     <!-- Icons -->
-    <meta name="msapplication-TileColor" content="#ffffff">
-    <meta name="msapplication-TileImage" content="images/ms-icon-144x144.png">
+    <link rel="apple-touch-icon" sizes="57x57" href="/images/apple-touch-icon-57x57.png">
+    <link rel="apple-touch-icon" sizes="60x60" href="/images/apple-touch-icon-60x60.png">
+    <link rel="apple-touch-icon" sizes="72x72" href="/images/apple-touch-icon-72x72.png">
+    <link rel="apple-touch-icon" sizes="76x76" href="/images/apple-touch-icon-76x76.png">
+    <link rel="apple-touch-icon" sizes="114x114" href="/images/apple-touch-icon-114x114.png">
+    <link rel="apple-touch-icon" sizes="120x120" href="/images/apple-touch-icon-120x120.png">
+    <link rel="apple-touch-icon" sizes="144x144" href="/images/apple-touch-icon-144x144.png">
+    <link rel="apple-touch-icon" sizes="152x152" href="/images/apple-touch-icon-152x152.png">
+    <link rel="apple-touch-icon" sizes="180x180" href="/images/apple-touch-icon-180x180.png">
+    <link rel="icon" type="image/png" href="/images/favicon-32x32.png" sizes="32x32">
+    <link rel="icon" type="image/png" href="/images/favicon-194x194.png" sizes="194x194">
+    <link rel="icon" type="image/png" href="/images/favicon-96x96.png" sizes="96x96">
+    <link rel="icon" type="image/png" href="/images/android-chrome-192x192.png" sizes="192x192">
+    <link rel="icon" type="image/png" href="/images/favicon-16x16.png" sizes="16x16">
+    <link rel="manifest" href="/images/manifest.json">
+    <link rel="mask-icon" href="/images/safari-pinned-tab.svg" color="#5bbad5">
+    <link rel="shortcut icon" href="/images/favicon.ico">
+    <meta name="msapplication-TileColor" content="#da532c">
+    <meta name="msapplication-TileImage" content="/images/mstile-144x144.png">
+    <meta name="msapplication-config" content="/images/browserconfig.xml">
     <meta name="theme-color" content="#ffffff">
-    <link rel="apple-touch-icon" sizes="57x57" href="images/apple-icon-57x57.png">
-    <link rel="apple-touch-icon" sizes="60x60" href="images/apple-icon-60x60.png">
-    <link rel="apple-touch-icon" sizes="72x72" href="images/apple-icon-72x72.png">
-    <link rel="apple-touch-icon" sizes="76x76" href="images/apple-icon-76x76.png">
-    <link rel="apple-touch-icon" sizes="114x114" href="images/apple-icon-114x114.png">
-    <link rel="apple-touch-icon" sizes="120x120" href="images/apple-icon-120x120.png">
-    <link rel="apple-touch-icon" sizes="144x144" href="images/apple-icon-144x144.png">
-    <link rel="apple-touch-icon" sizes="152x152" href="images/apple-icon-152x152.png">
-    <link rel="apple-touch-icon" sizes="180x180" href="images/apple-icon-180x180.png">
-    <link rel="icon" type="image/png" sizes="192x192" href="images/android-icon-192x192.png">
-    <link rel="icon" type="image/png" sizes="32x32" href="images/favicon-32x32.png">
-    <link rel="icon" type="image/png" sizes="96x96" href="images/favicon-96x96.png">
-    <link rel="icon" type="image/png" sizes="16x16" href="images/favicon-16x16.png">
-    <link rel="manifest" href="/manifest.json">
 
     <!-- Bootstrap core CSS -->
     <link href="css/bootstrap.css" rel="stylesheet">
@@ -57,28 +61,30 @@
 <div id="underDevelopment" class="container under-development">
     <h1>...Website Still being developed...</h1>
 </div>
-<div id="baseballAppDiv" class="container navbar-target" >
-    <button id="baseballAppButton" type="button" class="btn btn-info btn-block" onclick="location.href='http://calvin.sagewall.io/baseball/index.html';">Visit the HTML5 Baseball Application</button>
-</div>
+
 <div id="mapDiv" class="container navbar-target" ng-controller="MapController">
-    <div class="container map-container"><h2>Baseball Map</h2>
-        <div class="map-legend-row">
-            <div class="row">
-                <div class="col-md-10">
-                    <esri-map id="map" class='map' webmap-id="4afc689ca51f4333a2d179ee160ea965" center="map.center"
-                              zoom="map.zoom"
-                              map-options="map.mapOptions">
-                        <div esri-legend target-id="legend"></div>
-                    </esri-map>
-                    <p>Lat: {{ map.center.lat | number:3 }}, Lng: {{ map.center.lng | number:3 }}, Zoom: {{
-                        map.zoom}}</p>
-                </div>
-                <div class="col-md-2">
-                    <div id="legend" class="legend"></div>
-                </div>
+    <div class="container map-container"><h2>Current Hazards and Disaster Response Map</h2>
+        <div class="row map-row">
+            <div class="col-md-10">
+                <esri-map id="map" class='map' webmap-id="28f5ad18aaa94790bc6f305a7618ccb0" center="map.center"
+                          zoom="map.zoom"
+                          map-options="map.mapOptions">
+                    <div esri-legend target-id="legend"></div>
+                </esri-map>
+            </div>
+            <div class="col-md-2">
+                <div id="legend" class="legend"></div>
+            </div>
+        </div>
+        <div class="row">
+            <div id="coordinates" class="col-md-12">Lat: {{ map.center.lat | number:3 }}, Lng: {{ map.center.lng | number:3 }}, Zoom: {{
+                map.zoom}}
             </div>
         </div>
     </div>
+</div>
+<div id="baseballAppDiv" class="container navbar-target" >
+    <button id="baseballAppButton" type="button" class="btn btn-info btn-block" onclick="location.href='http://www.sagewall.io/baseball/';">Visit the HTML5 Baseball Application</button>
 </div>
 <div id="resume" class="container navbar-target">
     <div id="about" class="container">

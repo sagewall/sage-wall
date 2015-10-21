@@ -7,6 +7,10 @@ body {
     }
 }
 
+#coordinates {
+    text-align: center;
+}
+
 .navbar-target {
     padding-top: 60px;
 }
@@ -20,9 +24,8 @@ body {
     height: 600px;
 }
 
-.map-legend-row {
+.map-row {
     border: solid;
-    padding: 10px;
 }
 
 .under-development {

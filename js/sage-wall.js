@@ -7,10 +7,10 @@
     app.controller('MapController', function ($scope) {
         $scope.map = {
             center: {
-                lng: -95.000,
-                lat: 38.000
+                lng: -105.35,
+                lat: 39.50
             },
-            zoom: 4,
+            zoom: 9,
             mapOptions: {
                 minZoom: 0,
                 maxZoom: 20,
@@ -40,10 +40,6 @@
         $http.get('data/reports.json').success(function(data){
             projectsCtrl.reports = data;
         });
-    }]);
-
-    app.controller('baseballAppController', ['$http', function(){
-
     }]);
 
     app.directive("projectDescription", function() {
