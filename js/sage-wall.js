@@ -2,29 +2,7 @@
  * Created by Sage on 9/9/2015.
  */
 (function(){
-    var app = angular.module('sage-wall', ['esri.map', 'ui.bootstrap']);
-
-    app.controller('MapController', function ($scope) {
-        $scope.map = {
-            center: {
-                lng: -105.35,
-                lat: 39.50
-            },
-            zoom: 9,
-            mapOptions: {
-                minZoom: 0,
-                maxZoom: 20,
-                resizeDelay: 500,
-                navigationMode: 'classic',
-                sliderOrientation: 'vertical',
-                sliderPosition: 'top-right',
-                displayGraphicsOnPan: true,
-                fadeOnZoom: false,
-                logo: true,
-                wrapAround180: true
-            }
-        };
-    });
+    var app = angular.module('sage-wall', ['ui.bootstrap']);
 
     app.controller('ProjectsController', ['$http', function($http){
         var projectsCtrl = this;
@@ -34,7 +12,7 @@
         });
     }]);
 
-    app.controller('ReportsController', ['$http', function($http){
+    app.controller('ReportController', ['$http', function($http){
         var projectsCtrl = this;
         projectsCtrl.reports = [];
         $http.get('data/reports.json').success(function(data){
@@ -49,12 +27,10 @@
         };
     });
 
-    app.directive("reportsDescription", function() {
+    app.directive("reportDescription", function() {
         return {
             restrict: 'E',
-            templateUrl: "reports-description.html"
+            templateUrl: "report-description.html"
         };
     });
-
-
 })();
