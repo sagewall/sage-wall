@@ -1,28 +1,29 @@
 body {
     font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+    color: #1d2120;
     width: 100%;
     margin: 0 auto 0 auto;
-    background: #eeeeee;
+    background: #e3e0cf;
 }
 h2 {
     text-align: center;
     border-bottom: 1px solid #000000;
     padding-bottom: 10px;
 }
-#header {
-    background: #000000;
-    color: #ffffff;
-    font-weight: 700;
+a {
+    color: #1d2120;
+}
+#header, #footer {
+    background: #9fa8a3;
+    font-weight: 600;
     text-align: center;
 }
-#footer {
-    text-align: center;
-}
+
 .skill {
     font-weight: 300;
     padding: 0 5px 0 5px;
     margin: 3px;
     color: #000000;
-    background-color: #cccccc;
+    background-color: #c5d5cb;
     border: 1px solid #000000;
 }
