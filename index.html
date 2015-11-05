@@ -36,19 +36,22 @@
     <link href="css/bootstrap.css" rel="stylesheet">
     <!-- Application CSS -->
     <link href="css/sage-wall.css" rel="stylesheet">
+    <!-- Fonts -->
+    <link href="https://fonts.googleapis.com/css?family=Hammersmith+One" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Open+Sans" rel="stylesheet">
 
 </head>
 <body>
-<div id="header" class="container">
+<header>
     <h1>Sage Wall</h1>
 
     <p>GIS Developer</p>
-</div>
-<div id="about" class="container">
-    <h2>About Me</h2>
-
+</header>
+<section id="about" class="container">
     <div class="row">
         <div class="col-md-12">
+            <h2>About Me</h2>
+
             <p>I am a GIS analyst and developer with 15 years of experience. Currently, I develop custom web
                 mapping applications and tools for Jefferson County Colorado. Previously, I’ve created
                 multiple web mapping applications and developed custom tools for visualizing and assessing
@@ -60,13 +63,12 @@
                 southwestern Wyoming using ESRI software.</p>
         </div>
     </div>
-</div>
+</section>
 
-<div id="knowledge" class="container">
-    <h2>Knowledge and Skills</h2>
-
+<section id="knowledge" class="container">
     <div class="row">
         <div class="col-md-12">
+            <h2>Knowledge and Skills</h2>
             <ul class="list-inline">
                 <li class="skill">ArcGIS for Desktop</li>
                 <li class="skill">ArcGIS for Server</li>
@@ -133,13 +135,13 @@
             </ul>
         </div>
     </div>
-</div>
+</section>
 
-<div id="experience" class="container">
-    <h2>Experience</h2>
-
+<section id="experience" class="container">
     <div class="row">
         <div class="col-md-12">
+            <h2>Experience</h2>
+
             <h3>Jefferson County Colorado, Senior GIS Analyst (2/2014 - Present)</h3>
             <ul class="list-group">
                 <li class="list-group-item">Develop and maintain the county’s web mapping applications using
@@ -250,13 +252,12 @@
             </ul>
         </div>
     </div>
-</div>
+</section>
 
-<div id="education" class="container">
-    <h2>Education</h2>
-
+<section id="education" class="container">
     <div class="row">
         <div class="col-md-12">
+            <h2>Education</h2>
             <ul class="list-group">
                 <li class="list-group-item">
                     <p><strong>2006</strong> Master of Arts (Anthropology) <em>University of Wyoming</em></p>
@@ -270,13 +271,12 @@
             </ul>
         </div>
     </div>
-</div>
+</section>
 
-<div id="publications" class="container">
-    <h2>Publications</h2>
-
+<section id="publications" class="container">
     <div class="row">
         <div class="col-md-12">
+            <h2>Publications</h2>
             <ul class="list-group">
                 <li class="list-group-item">
                     <p>Multiple Approaches to Formation Processes: The Pine Spring Site, Southwest
@@ -287,30 +287,30 @@
             </ul>
         </div>
     </div>
-</div>
+</section>
 
-<div id="thesis" class="container">
-    <h2>Thesis</h2>
-
+<section id="thesis" class="container">
     <div class="row">
         <div class="col-md-12">
+            <h2>Thesis</h2>
             <ul class="list-group">
                 <li class="list-group-item">
-                    <p>Prehistoric Archaeology, Water and Sand: A GIS Analysis of the Moxa Arch Study Area of Southwestern
-                        Wyoming. <em>Unpublished M.A. thesis, Department of Anthropology, University of Wyoming, Laramie</em>.
+                    <p>Prehistoric Archaeology, Water and Sand: A GIS Analysis of the Moxa Arch Study Area of
+                        Southwestern
+                        Wyoming. <em>Unpublished M.A. thesis, Department of Anthropology, University of Wyoming,
+                            Laramie</em>.
                         (2006)
                     </p>
                 </li>
             </ul>
         </div>
     </div>
-</div>
+</section>
 
-<div id="organizations" class="container">
-    <h2>Professional Organizations</h2>
-
+<section id="organizations" class="container">
     <div class="row">
         <div class="col-md-12">
+            <h2>Professional Organizations</h2>
             <ul class="list-group">
                 <li class="list-group-item">GIS Colorado</li>
                 <li class="list-group-item">Register of Professional Archaeologists</li>
@@ -319,13 +319,12 @@
             </ul>
         </div>
     </div>
-</div>
+</section>
 
-<div id="reports" ng-controller="ReportController as reportCtrl" class="container">
-    <h2>Reports</h2>
-
+<section id="reports" ng-controller="ReportController as reportCtrl" class="container">
     <div class="row">
         <div class="col-md-12">
+            <h2>Reports</h2>
             <ul class="list-group">
                 <li class="list-group-item" ng-repeat="report in reportCtrl.reports">
                     <report-description></report-description>
@@ -333,13 +332,12 @@
             </ul>
         </div>
     </div>
-</div>
+</section>
 
-<div id="projects" ng-controller="ProjectsController as projectsCtrl" class="container">
-    <h2>Projects</h2>
-
+<section id="projects" ng-controller="ProjectsController as projectsCtrl" class="container">
     <div class="row">
         <div class="col-md-12">
+            <h2>Projects</h2>
             <ul class="list-group">
                 <li class="list-group-item" ng-repeat="project in projectsCtrl.projects">
                     <project-description></project-description>
@@ -347,17 +345,13 @@
             </ul>
         </div>
     </div>
-</div>
+</section>
 
-<div id="footer" class="container">
-    <div class="row">
-        <div class="col-md-12">
-            <p>
-                <a href="mailto:sagemaps@gmail.com">Email Me</a>
-            </p>
-        </div>
-    </div>
-</div>
+<footer>
+    <p>
+        <a href="mailto:sagemaps@gmail.com">Email Me</a>
+    </p>
+</footer>
 
 <!-- Angular JS -->
 <script src="js/angular.js"></script>
