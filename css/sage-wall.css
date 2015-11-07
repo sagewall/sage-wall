@@ -46,3 +46,6 @@ header p {
 .skill:hover {
     background-color: #c7d0d5;
 }
+.list-inline {
+    text-align: center;
+}
