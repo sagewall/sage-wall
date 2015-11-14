@@ -1,6 +1,7 @@
 body {
     font-family: 'Open Sans', sans-serif;
-    background: #dfded4;
+    background: #dfdfdf;
+    color: #333333;
 }
 h1 {
     font-weight: bold;
@@ -15,10 +16,18 @@ h3 {
     font-size: 20px;
 }
 header, footer {
-    background: #93b1c6;
+    background: #333333;
+    color: #5bc0de;
     font-weight: 600;
     text-align: center;
     padding: 10px;
+}
+footer a {
+    color: #5bc0de;
+}
+footer a:hover {
+    color: #cccccc;
+    text-decoration: none;
 }
 .container {
     max-width: 960px;
@@ -27,26 +36,25 @@ header, footer {
     font-style: italic;
 }
 .list-group-item {
-    background-color: #93b1c6;
+    background-color: #bbbbbb;
     border: 1px solid #000000;
     -webkit-transition: all 1s;
     transition: background-color 1s;
 }
 .list-group-item:hover {
-    background-color: #c7d0d5;
+    background-color: #cccccc;
 }
-.skill {
+.knowledge .skill {
     font-weight: 300;
-    padding: 0 5px 0 5px;
+    padding: 15px;
     margin: 3px;
-    color: #000000;
-    background-color: #93b1c6;
-    border: 1px solid #000000;
+    color: #5bc0de;
+    background-color: #333333;
     -webkit-transition: all 1s;
     transition: background-color 1s;
 }
 .skill:hover {
-    background-color: #c7d0d5;
+    background-color: #111111;
 }
 .list-inline {
     text-align: center;
