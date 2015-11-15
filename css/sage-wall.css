@@ -1,7 +1,7 @@
 body {
     font-family: 'Open Sans', sans-serif;
-    background: #dfdfdf;
-    color: #333333;
+    background: #C4BCAF;
+    color: #332F2B;
 }
 h1 {
     font-weight: bold;
@@ -9,25 +9,29 @@ h1 {
 }
 h2 {
     text-align: center;
-    border-bottom: 1px solid #000000;
+    border-bottom: 1px solid #332F2B;
     padding-bottom: 10px;
 }
 h3 {
     font-size: 20px;
 }
 header, footer {
-    background: #333333;
-    color: #5bc0de;
+    background: #332F2B;
+    color: #7AA6CC;
     font-weight: 600;
     text-align: center;
     padding: 10px;
 }
 footer a {
-    color: #5bc0de;
+    color: #7AA6CC;
 }
 footer a:hover {
-    color: #cccccc;
+    color: #C4BCAF;
     text-decoration: none;
+}
+.about p {
+    font-size: 18px;
+    text-align: center;
 }
 .container {
     max-width: 960px;
@@ -36,25 +40,28 @@ footer a:hover {
     font-style: italic;
 }
 .list-group-item {
-    background-color: #bbbbbb;
-    border: 1px solid #000000;
+    background-color: #E5DDCF;
+    border: 1px solid #332F2B;
+    border-radius: 5px;
     -webkit-transition: all 1s;
     transition: background-color 1s;
 }
 .list-group-item:hover {
-    background-color: #cccccc;
+    background-color: #7AA6CC;
 }
 .knowledge .skill {
     font-weight: 300;
     padding: 15px;
     margin: 3px;
-    color: #5bc0de;
-    background-color: #333333;
+    color: #332F2B;
+    background-color: #E5DDCF;
+    border: 1px solid #332F2B;
+    border-radius: 25px;
     -webkit-transition: all 1s;
     transition: background-color 1s;
 }
 .skill:hover {
-    background-color: #111111;
+    background-color: #7AA6CC;
 }
 .list-inline {
     text-align: center;
