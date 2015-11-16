@@ -1,0 +1,69 @@
+body {
+  font-family: 'Open Sans', sans-serif;
+  background: #C4BCAF;
+  color: #332F2B; }
+
+h1 {
+  font-weight: bold;
+  font-size: 48px; }
+
+h2 {
+  text-align: center;
+  border-bottom: 1px solid #332F2B;
+  padding-bottom: 10px; }
+
+h3 {
+  font-size: 20px; }
+
+header, footer {
+  background: #332F2B;
+  color: #7AA6CC;
+  font-weight: 600;
+  text-align: center;
+  padding: 10px; }
+
+footer a {
+  color: #7AA6CC; }
+
+footer a:hover {
+  color: #C4BCAF;
+  text-decoration: none; }
+
+.about p {
+  font-size: 18px;
+  text-align: center; }
+
+.container {
+  max-width: 960px; }
+
+.lead {
+  font-style: italic; }
+
+.list-group-item {
+  background-color: #E5DDCF;
+  border: 1px solid #332F2B;
+  border-radius: 5px;
+  -webkit-transition: all 1s;
+  transition: background-color 1s; }
+
+.list-group-item:hover {
+  background-color: #7AA6CC; }
+
+.knowledge .skill {
+  font-weight: 300;
+  padding: 15px;
+  margin: 3px;
+  color: #332F2B;
+  background-color: #E5DDCF;
+  border: 1px solid #332F2B;
+  border-radius: 25px;
+  -webkit-transition: all 1s;
+  transition: background-color 1s; }
+
+.skill:hover {
+  background-color: #7AA6CC; }
+
+.list-inline {
+  text-align: center; }
+
+/*# sourceMappingURL=main.css.map */
