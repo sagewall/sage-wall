@@ -26,7 +26,7 @@ footer a {
   color: #7AA6CC; }
 
 footer a:hover {
-  color: #C4BCAF;
+  color: #9fbfda;
   text-decoration: none; }
 
 .about p {
@@ -39,31 +39,29 @@ footer a:hover {
 .lead {
   font-style: italic; }
 
-.list-group-item {
+.list-group-item, .list-inline .skill {
   background-color: #E5DDCF;
   border: 1px solid #332F2B;
   border-radius: 5px;
   -webkit-transition: all 1s;
   transition: background-color 1s; }
 
-.list-group-item:hover {
-  background-color: #7AA6CC; }
+.list-group-item:hover, .list-inline .skill:hover {
+  background-color: #cfd7e5; }
 
-.knowledge .skill {
-  font-weight: 300;
-  padding: 15px;
+.list-inline .skill {
+  font-weight: bold;
+  padding: 10px;
   margin: 3px;
-  color: #332F2B;
-  background-color: #E5DDCF;
-  border: 1px solid #332F2B;
-  border-radius: 25px;
-  -webkit-transition: all 1s;
-  transition: background-color 1s; }
+  border-radius: 25px; }
 
-.skill:hover {
-  background-color: #7AA6CC; }
+.skill:first-child {
+  border-radius: 25px; }
 
-.list-inline {
+.skill:last-child {
+  border-radius: 25px; }
+
+.knowledge {
   text-align: center; }
 
 /*# sourceMappingURL=main.css.map */
