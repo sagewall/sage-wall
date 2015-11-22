@@ -1,0 +1,137 @@
+[
+  {
+    "name": "ArcGIS for Desktop"
+  },
+  {
+    "name": "ArcGIS for Server"
+  },
+  {
+    "name": "ArcGIS Online"
+  },
+  {
+    "name": "ArcGIS Web AppBuilder"
+  },
+  {
+    "name": "ArcGIS Collector"
+  },
+  {
+    "name": "ESRI JavaScript API"
+  },
+  {
+    "name": "ESRI Leaflet API"
+  },
+  {
+    "name": "JavaScript"
+  },
+  {
+    "name": "HTML5"
+  },
+  {
+    "name": "Bootstrap"
+  },
+  {
+    "name": "Python"
+  },
+  {
+    "name": "arcpy"
+  },
+  {
+    "name": "ESRI .NET Runtime API"
+  },
+  {
+    "name": "ESRI iOS Runtime API"
+  },
+  {
+    "name": "ESRI ArcObjects"
+  },
+  {
+    "name": "C#"
+  },
+  {
+    "name": ".NET"
+  },
+  {
+    "name": "Visual Studio"
+  },
+  {
+    "name": "Objective C"
+  },
+  {
+    "name": "XCode"
+  },
+  {
+    "name": "Geoserver"
+  },
+  {
+    "name": "Open Layers"
+  },
+  {
+    "name": "ArcSDE for SQL Server and Oracle"
+  },
+  {
+    "name": "Geodatabase topology, domains and subtypes"
+  },
+  {
+    "name": "Geodatabase replication and versioning"
+  },
+  {
+    "name": "ArcGIS 3D and Spatial Analyst Extensions"
+  },
+  {
+    "name": "Geoprocessing, analysis and modeling"
+  },
+  {
+    "name": "Geocortex"
+  },
+  {
+    "name": "Incline"
+  },
+  {
+    "name": "GPS and instrument survey"
+  },
+  {
+    "name": "Trimble GPS Pathfinder Office and TerraSync"
+  },
+  {
+    "name": "ArcPad"
+  },
+  {
+    "name": "LiDAR processing and analysis"
+  },
+  {
+    "name": "MARS"
+  },
+  {
+    "name": "FGDC compliant metadata"
+  },
+  {
+    "name": "Microsoft Azure"
+  },
+  {
+    "name": "Amazon EC2"
+  },
+  {
+    "name": "Microsoft SQL Server"
+  },
+  {
+    "name": "Oracle"
+  },
+  {
+    "name": "PostgreSQL/PostGIS"
+  },
+  {
+    "name": "Google Earth, KML"
+  },
+  {
+    "name": "Adobe Illustrator and Photoshop"
+  },
+  {
+    "name": "Microsoft Office"
+  },
+  {
+    "name": "Registered Professional Archaeologist"
+  },
+  {
+    "name": "NEPA, NHPA and ARPA"
+  }
+]

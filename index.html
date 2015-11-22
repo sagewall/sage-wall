@@ -33,6 +33,20 @@
     <meta name="msapplication-config" content="browserconfig.xml">
     <meta name="theme-color" content="#ffffff">
 
+    <!-- Google Analytics-->
+    <!--suppress CommaExpressionJS -->
+    <script>
+        (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+                    (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+                m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+        })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+
+        ga('create', 'UA-69716714-1', 'auto');
+        ga('require', 'linkid');
+        ga('send', 'pageview');
+
+    </script>
+
     <!-- Bootstrap core CSS -->
     <link href="css/bootstrap.css" rel="stylesheet">
     <!-- Application CSS -->
@@ -65,73 +79,14 @@
     </div>
 </section>
 
-<section class="knowledge container">
+<section ng-controller="SkillController as skillCtrl" class="knowledge container">
     <div class="row">
         <div class="col-xs-12">
             <h2>Knowledge and Skills</h2>
             <ul class="list-group list-inline">
-                <li class="list-group-item skill">ArcGIS for Desktop</li>
-                <li class="list-group-item skill">ArcGIS for Server</li>
-                <li class="list-group-item skill">ESRI JavaScript API</li>
-                <li class="list-group-item skill">ESRI .NET Runtime API</li>
-                <li class="list-group-item skill">ESRI iOS Runtime API</li>
-                <li class="list-group-item skill">ESRI Leaflet API</li>
-                <li class="list-group-item skill">HTML5</li>
-                <li class="list-group-item skill">Bootstrap</li>
-                <li class="list-group-item skill">JavaScript</li>
-                <li class="list-group-item skill">Python</li>
-                <li class="list-group-item skill">arcpy</li>
-                <li class="list-group-item skill">numpy</li>
-                <li class="list-group-item skill">pandas</li>
-                <li class="list-group-item skill">matplotlib</li>
-                <li class="list-group-item skill">C#</li>
-                <li class="list-group-item skill">.NET</li>
-                <li class="list-group-item skill">ArcObjects</li>
-                <li class="list-group-item skill">Visual Studio</li>
-                <li class="list-group-item skill">iOS application development</li>
-                <li class="list-group-item skill">Objective C</li>
-                <li class="list-group-item skill">XCode</li>
-                <li class="list-group-item skill">ArcGIS Online</li>
-                <li class="list-group-item skill">ArcGIS WebApp Builder</li>
-                <li class="list-group-item skill">ArcGIS Collector</li>
-                <li class="list-group-item skill">Geoserver</li>
-                <li class="list-group-item skill">Open Layers</li>
-                <li class="list-group-item skill">ArcSDE for SQL Server and Oracle</li>
-                <li class="list-group-item skill">ArcGIS 3D Analyst</li>
-                <li class="list-group-item skill">ArcGIS Spatial Analyst</li>
-                <li class="list-group-item skill">Geodatabase topology</li>
-                <li class="list-group-item skill">Geodatabase domains</li>
-                <li class="list-group-item skill">Geodatabase subtypes</li>
-                <li class="list-group-item skill">Geodatabase replication</li>
-                <li class="list-group-item skill">Geodatabase versioning</li>
-                <li class="list-group-item skill">Geoprocessing</li>
-                <li class="list-group-item skill">GIS analysis</li>
-                <li class="list-group-item skill">GIS modeling</li>
-                <li class="list-group-item skill">Geocortex</li>
-                <li class="list-group-item skill">Incline</li>
-                <li class="list-group-item skill">GPS survey</li>
-                <li class="list-group-item skill">Instrument survey</li>
-                <li class="list-group-item skill">Trimble GPS Pathfinder Office</li>
-                <li class="list-group-item skill">TerraSync</li>
-                <li class="list-group-item skill">ArcPad</li>
-                <li class="list-group-item skill">LiDAR</li>
-                <li class="list-group-item skill">MARS</li>
-                <li class="list-group-item skill">FGDC metadata</li>
-                <li class="list-group-item skill">Microsoft Azure</li>
-                <li class="list-group-item skill">Amazon EC2</li>
-                <li class="list-group-item skill">Microsoft SQL Server</li>
-                <li class="list-group-item skill">Oracle</li>
-                <li class="list-group-item skill">PostgreSQL</li>
-                <li class="list-group-item skill">PostGIS</li>
-                <li class="list-group-item skill">Google Earth</li>
-                <li class="list-group-item skill">KML</li>
-                <li class="list-group-item skill">Adobe Illustrator</li>
-                <li class="list-group-item skill">Adobe Photoshop</li>
-                <li class="list-group-item skill">Microsoft Office</li>
-                <li class="list-group-item skill">Registered Professional Archaeologist</li>
-                <li class="list-group-item skill">NEPA</li>
-                <li class="list-group-item skill">NHPA</li>
-                <li class="list-group-item skill">ARPA</li>
+                <li class="list-group-item skill" ng-repeat="skill in skillCtrl.skills">
+                    {{skill.name}}
+                </li>
             </ul>
         </div>
 

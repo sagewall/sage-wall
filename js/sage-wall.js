@@ -13,10 +13,18 @@
     }]);
 
     app.controller('ReportController', ['$http', function($http){
-        var projectsCtrl = this;
-        projectsCtrl.reports = [];
+        var reportCtrl = this;
+        reportCtrl.reports = [];
         $http.get('data/reports.json').success(function(data){
-            projectsCtrl.reports = data;
+            reportCtrl.reports = data;
+        });
+    }]);
+
+    app.controller('SkillController', ['$http', function($http){
+        var skillCtrl = this;
+        skillCtrl.skills = [];
+        $http.get('data/skills.json').success(function(data){
+            skillCtrl.skills = data;
         });
     }]);
 
