@@ -1,0 +1,302 @@
+<!DOCTYPE html>
+<html ng-app="sage-wall">
+
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
+    <meta name="description" content="Sage Wall's personal website and online resume">
+    <meta name="author" content="Sage Wall">
+    <title>Sage Wall</title>
+
+    <!-- Icons -->
+    <link rel="apple-touch-icon" sizes="57x57" href="images/apple-touch-icon-57x57.png">
+    <link rel="apple-touch-icon" sizes="60x60" href="images/apple-touch-icon-60x60.png">
+    <link rel="apple-touch-icon" sizes="72x72" href="images/apple-touch-icon-72x72.png">
+    <link rel="apple-touch-icon" sizes="76x76" href="images/apple-touch-icon-76x76.png">
+    <link rel="apple-touch-icon" sizes="114x114" href="images/apple-touch-icon-114x114.png">
+    <link rel="apple-touch-icon" sizes="120x120" href="images/apple-touch-icon-120x120.png">
+    <link rel="apple-touch-icon" sizes="144x144" href="images/apple-touch-icon-144x144.png">
+    <link rel="apple-touch-icon" sizes="152x152" href="images/apple-touch-icon-152x152.png">
+    <link rel="apple-touch-icon" sizes="180x180" href="images/apple-touch-icon-180x180.png">
+    <link rel="icon" type="image/png" href="images/favicon-32x32.png" sizes="32x32">
+    <link rel="icon" type="image/png" href="images/favicon-194x194.png" sizes="194x194">
+    <link rel="icon" type="image/png" href="images/favicon-96x96.png" sizes="96x96">
+    <link rel="icon" type="image/png" href="images/android-chrome-192x192.png" sizes="192x192">
+    <link rel="icon" type="image/png" href="images/favicon-16x16.png" sizes="16x16">
+    <link rel="manifest" href="manifest.json">
+    <link rel="mask-icon" href="images/safari-pinned-tab.svg" color="#5bbad5">
+    <link rel="shortcut icon" href="images/favicon.ico">
+    <meta name="msapplication-TileColor" content="#da532c">
+    <meta name="msapplication-TileImage" content="images/mstile-144x144.png">
+    <meta name="msapplication-config" content="browserconfig.xml">
+    <meta name="theme-color" content="#ffffff">
+
+    <!-- Bootstrap core CSS -->
+    <link href="css/bootstrap.css" rel="stylesheet">
+    <!-- Application CSS -->
+    <link href="css/main.css" rel="stylesheet">
+    <!-- Fonts -->
+    <link href="https://fonts.googleapis.com/css?family=Open+Sans" rel="stylesheet">
+
+</head>
+
+<body>
+<header class="container-fluid">
+    <h1>Sage Wall</h1>
+
+    <p class="lead">GIS Developer</p>
+</header>
+<section class="about container">
+    <div class="row">
+        <div class="col-xs-12">
+            <h2>About Me</h2>
+
+            <p>I am a GIS analyst and developer with 15 years of experience. Currently, I develop custom web mapping
+                applications and tools for Jefferson County Colorado. Previously, I’ve created multiple web mapping
+                applications and developed custom tools for visualizing and assessing marine magnetic surveys for
+                archaeological resources for the National Park Service and the Bureau of Offshore Energy Management. I
+                have provided GIS analysis and mapping contributions to multiple biological and environmental
+                assessments. I started my professional career as a GIS Specialist mapping archaeological sites along
+                natural gas pipelines and transmission lines. In graduate school I examined prehistoric landscape use
+                and settlement pattern in southwestern Wyoming using ESRI software.</p>
+        </div>
+    </div>
+</section>
+
+<section ng-controller="SkillController as skillCtrl" class="knowledge container">
+    <div class="row">
+        <div class="col-xs-12">
+            <h2>Knowledge and Skills</h2>
+            <ul class="list-group list-inline">
+                <li class="list-group-item skill" ng-repeat="skill in skillCtrl.skills">
+                    {{skill.name}}
+                </li>
+            </ul>
+        </div>
+
+    </div>
+</section>
+
+<section class="experience container">
+    <div class="row">
+        <div class="col-xs-12">
+            <h2>Experience</h2>
+
+            <h3>Jefferson County Colorado, Senior GIS Analyst (2/2014 - Present)</h3>
+            <ul class="list-group">
+                <li class="list-group-item">Develop and maintain the county’s web mapping applications using the ESRI
+                    JavaScript API
+                </li>
+                <li class="list-group-item">Administrator of the county’s ArcGIS Servers</li>
+                <li class="list-group-item">Administrator of the county’s ArcGIS Online account</li>
+                <li class="list-group-item">Create and maintain ArcGIS for Server services</li>
+                <li class="list-group-item">Create layers and maps on ArcGIS Online</li>
+                <li class="list-group-item">Develop ArcGIS add-ins, tools and scripts using Python and C# ArcObjects
+                </li>
+                <li class="list-group-item">Develop native iOS applications using Objective-C and XCode</li>
+                <li class="list-group-item">Produce paper maps and atlases in ArcGIS Desktop</li>
+                <li class="list-group-item">Provide GIS support to the Jefferson County Emergency Operations Center
+                </li>
+                <li class="list-group-item">Member of the IT Security Team</li>
+                <li class="list-group-item">Maintain accounting records in QuickBooks</li>
+            </ul>
+            <h3 class="list-group-item-heading">Colorado State University, Research Associate (3/2011 –
+                2/1014)</h3>
+            <ul class="list-group">
+                <li class="list-group-item">Participated in a cooperative agreement with the National Park Service (NPS)
+                </li>
+                <li class="list-group-item">Provided GIS and GPS technical support to NPS staff</li>
+                <li class="list-group-item">Developed ArcGIS add-ins and tools using Python and C# .NET ArcObjects
+                </li>
+                <li class="list-group-item">Developed an ArcGIS python toolbox to analyze marine magnetic surveys
+                </li>
+                <li class="list-group-item">Incorporated NPS GIS data into new ArcSDE for SQL Server geodatabases
+                </li>
+                <li class="list-group-item">Created and maintained ArcGIS for Server services</li>
+                <li class="list-group-item">Created maps and atlases</li>
+                <li class="list-group-item">Created visual simulations using ArcScene and Google Earth</li>
+                <li class="list-group-item">Developed internet based map applications using Geocortex, Silverlight and
+                    JavaScript
+                </li>
+                <li class="list-group-item">Wrote training materials for ArcPad, Pathfinder Office and TerraSync GPS
+                    software
+                </li>
+                <li class="list-group-item">Trained NPS staff in ESRI ArcGIS products and GPS data collection
+                </li>
+                <li class="list-group-item">Member of the GPS and Mobile Mapping Subcommittee to the NPS GIS Council
+                </li>
+                <li class="list-group-item">Member of the Cultural Resources Subcommittee to the NPS GIS Council
+                </li>
+                <li class="list-group-item">Mentored and trained interns</li>
+            </ul>
+            <h3>SWCA Environmental Consultants, GIS Analyst (10/2008 – 3/2011)</h3>
+            <ul class="list-group">
+                <li class="list-group-item">Provided GIS support to biological, paleontological and cultural resource
+                    scientists
+                </li>
+                <li class="list-group-item">Analyzed project impacts to biological, paleontological and cultural
+                    resources
+                </li>
+                <li class="list-group-item">Incorporated differentially corrected GPS data into existing GIS datasets
+                </li>
+                <li class="list-group-item">Developed ArcGIS scripts and tools using Python</li>
+                <li class="list-group-item">Developed custom open source internet based map products using PHP and KML
+                </li>
+                <li class="list-group-item">Projects ranged in size from 5-acre surveys blocks to multi-state utility
+                    corridors
+                </li>
+                <li class="list-group-item">Mentored and trained junior members of the team</li>
+            </ul>
+            <h3>Alpine Archaeological Consultants, GIS Specialist (7/2004 to 5/2008)</h3>
+            <ul class="list-group">
+                <li class="list-group-item">Staff archaeologist and GIS specialist</li>
+                <li class="list-group-item">Trained staff in ESRI ArcGIS products and Trimble sub-meter GPS survey
+                </li>
+                <li class="list-group-item">Produced report figures and performed geospatial analysis for archaeological
+                    reports
+                </li>
+            </ul>
+            <h3>University of Wyoming, Graduate Student (8/2000 to 7/2004)</h3>
+            <ul class="list-group">
+                <li class="list-group-item">Used ArcGIS to study the spatial distribution of cultural resources.
+                </li>
+                <li class="list-group-item">Used ArcGIS spatial analysis tools and GPS to research Native American
+                    landscape use in southwest Wyoming as part of a National Science Foundation grant.
+                </li>
+                <li class="list-group-item">Digitized archaeological project and site locations in Yellowstone National
+                    Park.
+                </li>
+            </ul>
+        </div>
+    </div>
+</section>
+
+<section class="education container">
+    <div class="row">
+        <div class="col-xs-12">
+            <h2>Education</h2>
+            <ul class="list-group">
+                <li class="list-group-item">
+                    <p><strong>2006</strong> Master of Arts (Anthropology) <em>University of Wyoming</em></p>
+                </li>
+                <li class="list-group-item">
+                    <p><strong>1999</strong> Bachelor of Science (Anthropology) <em>University of Utah</em></p>
+                </li>
+                <li class="list-group-item">
+                    <p><strong>1997</strong> Associate of Science (General Studies) <em>Weber State University</em></p>
+                </li>
+            </ul>
+        </div>
+    </div>
+</section>
+
+<section class="publications container">
+    <div class="row">
+        <div class="col-xs-12">
+            <h2>Publications</h2>
+            <ul class="list-group">
+                <li class="list-group-item">
+                    <p>Multiple Approaches to Formation Processes: The Pine Spring Site, Southwest Wyoming. <em>Geoarchaeology,
+                        an International Journal</em>. Vol. 21, No. 6, 615-638. (2006)
+                    </p>
+                </li>
+            </ul>
+        </div>
+    </div>
+</section>
+
+<section class="thesis container">
+    <div class="row">
+        <div class="col-xs-12">
+            <h2>Thesis</h2>
+            <ul class="list-group">
+                <li class="list-group-item">
+                    <p>Prehistoric Archaeology, Water and Sand: A GIS Analysis of the Moxa Arch Study Area of
+                        Southwestern Wyoming. <em>Unpublished M.A. thesis, Department of Anthropology, University of
+                            Wyoming,
+                            Laramie</em>. (2006)
+                    </p>
+                </li>
+            </ul>
+        </div>
+    </div>
+</section>
+
+<section class="organizations container">
+    <div class="row">
+        <div class="col-xs-12">
+            <h2>Professional Organizations</h2>
+            <ul class="list-group">
+                <li class="list-group-item">GIS Colorado</li>
+                <li class="list-group-item">Register of Professional Archaeologists</li>
+                <li class="list-group-item">Society for American Archaeology</li>
+                <li class="list-group-item">Wyoming Association of Professional Archaeologists</li>
+            </ul>
+        </div>
+    </div>
+</section>
+
+<section ng-controller="ReportController as reportCtrl" class="reports container">
+    <div class="row">
+        <div class="col-xs-12">
+            <h2>Reports</h2>
+            <ul class="list-group">
+                <li class="list-group-item" ng-repeat="report in reportCtrl.reports">
+                    <report-description></report-description>
+                </li>
+            </ul>
+        </div>
+    </div>
+</section>
+
+<section ng-controller="ProjectsController as projectsCtrl" class="projects container">
+    <div class="row">
+        <div class="col-xs-12">
+            <h2>Projects</h2>
+            <ul class="list-group">
+                <li class="list-group-item" ng-repeat="project in projectsCtrl.projects">
+                    <project-description></project-description>
+                </li>
+            </ul>
+        </div>
+    </div>
+</section>
+
+<footer class="container-fluid">
+    <p>
+        <a href="mailto:sagemaps@gmail.com">Email Me</a>
+    </p>
+</footer>
+
+<!-- Angular JS -->
+<script src="js/angular.js"></script>
+<!-- UI Bootstrap -->
+<script src="js/ui-bootstrap-0.13.4.js"></script>
+<!-- Application JavaScript -->
+<script src="js/sage-wall.js"></script>
+
+<!-- Google Analytics-->
+<!--suppress CommaExpressionJS -->
+<script>
+    (function (i, s, o, g, r, a, m) {
+        i['GoogleAnalyticsObject'] = r;
+        i[r] = i[r] || function () {
+                    (i[r].q = i[r].q || []).push(arguments)
+                }, i[r].l = 1 * new Date();
+        a = s.createElement(o),
+                m = s.getElementsByTagName(o)[0];
+        a.async = 1;
+        a.src = g;
+        m.parentNode.insertBefore(a, m)
+    })(window, document, 'script', '//www.google-analytics.com/analytics.js', 'ga');
+
+    ga('create', 'UA-69716714-1', 'auto');
+    ga('require', 'linkid');
+    ga('send', 'pageview');
+
+</script>
+</body>
+
+</html>

@@ -1,0 +1,72 @@
+$background-color: #C4BCAF
+$primary-font-color: #332F2B
+$header-background-color: #332F2B
+$header-font-color: #7AA6CC
+$list-group-item-background-color: #E5DDCF
+
+body
+  font-family: 'Open Sans', sans-serif
+  background: $background-color
+  color: $primary-font-color
+
+h1
+  font-weight: bold
+  font-size: 48px
+
+h2
+  text-align: center
+  border-bottom: 1px solid $primary-font-color
+  padding-bottom: 10px
+
+h3
+  font-size: 20px
+
+header, footer
+  background: $header-background-color
+  color: $header-font-color
+  font-weight: 600
+  text-align: center
+  padding: 10px
+
+footer a
+  color: $header-font-color
+
+footer a:hover
+  color: lighten($header-font-color, 10%)
+  text-decoration: none
+
+.about p
+  font-size: 18px
+  text-align: center
+
+.container
+  max-width: 960px
+
+.lead
+  font-style: italic
+
+.list-group-item
+  background-color: $list-group-item-background-color
+  border: 1px solid $primary-font-color
+  border-radius: 5px
+  -webkit-transition: all 1s
+  transition: background-color 1s
+
+.list-group-item:hover
+  background-color: complement($list-group-item-background-color)
+
+.list-inline .skill
+  @extend .list-group-item
+  font-weight: bold
+  padding: 10px
+  margin: 3px
+  border-radius: 25px
+
+.skill:first-child
+  border-radius: 25px
+
+.skill:last-child
+  border-radius: 25px
+
+.knowledge
+  text-align: center
