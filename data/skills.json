@@ -18,22 +18,31 @@
     "name": "ESRI JavaScript API"
   },
   {
-    "name": "ESRI Leaflet API"
-  },
-  {
     "name": "JavaScript"
   },
   {
     "name": "HTML5"
   },
   {
+    "name": "Sass"
+  },
+  {
     "name": "Bootstrap"
+  },
+  {
+    "name": "Git"
+  },
+  {
+    "name": "Amazon EC2"
   },
   {
     "name": "Python"
   },
   {
     "name": "arcpy"
+  },
+  {
+    "name": "ESRI Leaflet API"
   },
   {
     "name": "ESRI .NET Runtime API"
@@ -45,10 +54,7 @@
     "name": "ESRI ArcObjects"
   },
   {
-    "name": "C#"
-  },
-  {
-    "name": ".NET"
+    "name": "C# .NET"
   },
   {
     "name": "Visual Studio"
@@ -106,9 +112,6 @@
   },
   {
     "name": "Microsoft Azure"
-  },
-  {
-    "name": "Amazon EC2"
   },
   {
     "name": "Microsoft SQL Server"
