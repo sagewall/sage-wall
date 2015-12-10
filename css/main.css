@@ -35,6 +35,8 @@ footer a:hover {
 
 .container {
   max-width: 960px; }
+  .container:hover {
+    background-color: #beb5a6; }
 
 .lead {
   font-style: italic; }
@@ -46,14 +48,13 @@ footer a:hover {
   -webkit-transition: all 1s;
   transition: background-color 1s; }
 
-.list-group-item:hover, .list-inline .skill:hover {
-  background-color: #cfd7e5; }
-
 .list-inline .skill {
-  font-weight: bold;
   padding: 10px;
   margin: 3px;
   border-radius: 25px; }
+  .list-inline .skill:hover {
+    -webkit-animation: pulse 1s;
+    animation: pulse 1s; }
 
 .skill:first-child {
   border-radius: 25px; }

@@ -41,6 +41,8 @@ footer a:hover
 
 .container
   max-width: 960px
+  &:hover
+    background-color: darken($background-color, 3%)
 
 .lead
   font-style: italic
@@ -52,15 +54,14 @@ footer a:hover
   -webkit-transition: all 1s
   transition: background-color 1s
 
-.list-group-item:hover
-  background-color: complement($list-group-item-background-color)
-
 .list-inline .skill
   @extend .list-group-item
-  font-weight: bold
   padding: 10px
   margin: 3px
   border-radius: 25px
+  &:hover
+    -webkit-animation: pulse 1s
+    animation: pulse 1s
 
 .skill:first-child
   border-radius: 25px
