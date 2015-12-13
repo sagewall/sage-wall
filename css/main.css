@@ -17,20 +17,16 @@ h3 {
 
 header, footer {
   background: #332F2B;
+  color: #7AA6CC;
   font-weight: 600;
   text-align: center;
   padding: 10px; }
 
-header {
-  background: url("../images/header-background.png") no-repeat;
-  background-size: 100%;
-  height: auto; }
-
 footer a {
-  color: #E5DDCF; }
+  color: #7AA6CC; }
 
 footer a:hover {
-  color: #d3c6ae;
+  color: #9fbfda;
   text-decoration: none; }
 
 .about p {
@@ -39,6 +35,8 @@ footer a:hover {
 
 .container {
   max-width: 960px; }
+  .container:hover {
+    background-color: #beb5a6; }
 
 .lead {
   font-style: italic; }
@@ -55,8 +53,8 @@ footer a:hover {
   margin: 3px;
   border-radius: 25px; }
   .list-inline .skill:hover {
-    -webkit-animation: jello 1s;
-    animation: jello 1s; }
+    -webkit-animation: pulse 1s;
+    animation: pulse 1s; }
 
 .skill:first-child {
   border-radius: 25px; }
