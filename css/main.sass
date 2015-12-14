@@ -27,13 +27,11 @@ header, footer
   font-weight: 600
   text-align: center
   padding: 10px
-
-footer a
-  color: $header-font-color
-
-footer a:hover
-  color: lighten($header-font-color, 10%)
-  text-decoration: none
+  a
+    color: $header-font-color
+    &:hover
+      color: lighten($header-font-color, 10%)
+      text-decoration: none
 
 .about p
   font-size: 18px
@@ -41,8 +39,6 @@ footer a:hover
 
 .container
   max-width: 960px
-  &:hover
-    background-color: darken($background-color, 3%)
 
 .lead
   font-style: italic
@@ -60,8 +56,8 @@ footer a:hover
   margin: 3px
   border-radius: 25px
   &:hover
-    -webkit-animation: pulse 1s
-    animation: pulse 1s
+    -webkit-animation: jello 1s
+    animation: jello 1s
 
 .skill:first-child
   border-radius: 25px
