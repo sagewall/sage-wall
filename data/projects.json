@@ -1,0 +1,266 @@
+[
+  {
+    "name": "jMap 3.0",
+    "date": "2014 - 2015",
+    "description": "Developed custom tools and maps using the ESRI JavaScript API for Jefferson County's new web mapping application, jMap 3.0. This application is built on the Incline framework developed by Northline GIS. Developed and published map services, image services, geoprocessing services and locators using ArcGIS for Server. Published maps on ArcGIS online for use in Incline.",
+    "role": "GIS Developer",
+    "employer": "Jefferson County Colorado",
+    "client": "Jefferson County Colorado"
+  },
+  {
+    "name": "Human Services iOS Application version 2.2",
+    "date": "2014",
+    "description": "Took over as primary developer for the Jefferson County Human Services iOS application. Updated the contact database and depreciated methods. Fixed bugs. Released version 2.2, https://itunes.apple.com/us/app/jefferson-county-human-services/id618431832.",
+    "role": "iOS Developer",
+    "employer": "Jefferson County Colorado",
+    "client": "Jefferson County Colorado"
+  },
+  {
+    "name": "Vote Jeffco Map Application",
+    "date": "2014",
+    "description": "Developed a web application that works on desktop and mobile platforms. This application shows the location of ballot drop-off and vote center locations in Jefferson County. It also gives turn-by-turn directions to the closest drop-off or vote center. http://jeffco.us/vote-jeffco-map.",
+    "role": "GIS Developer",
+    "employer": "Jefferson County Colorado",
+    "client": "Jefferson County Colorado"
+  },
+  {
+    "name": "Marine Magnetic Survey Modeling: Custom Geospatial Processing Tools for Visualizing and Assessing Marine Magnetic Surveys for Archeological Resources",
+    "date": "2013 - 2014",
+    "description": "Developed an ArcGIS python toolbox to process and assess the coverage of magnetometer survey data. A custom python module was developed that calculates change in recorded gamma and provides functions for preprocessing the magnetometer data. Tools in the python toolbox were created to calculate statistics on the distribution of magnetometer readings and assess survey coverage. Other tools were developed to display interpolated surfaces of raw magnetic data and the first derivative of this surface. Testing of the models and tool outputs was performed at Biscayne Bay National Park on known submerged archaeological sites.",
+    "role": "GIS Developer",
+    "employer": "Colorado State University",
+    "client": "National Park Service and the Bureau of Offshore Energy Management"
+  },
+  {
+    "name": "Glen Canyon National Recreation Area Custom Add-In Development, Data Management and Web Viewer",
+    "date": "2012 - 2013",
+    "description": "Developed two custom ArcGIS Add-In toolbars and tools for the park using python. One tool allows for the quick addition of layer files and the other creates a current model of Lake Powell based on a digital elevation model and information obtained from the Bureau of Reclamation's website. Installed ArcGIS for Server and ArcSDE for SQL Server on a new server. Created a SDE geodatabase and web service of all available data for the recreation area using the new server. Created an interactive web mapping application for park staff to be able to visualize and use their GIS data. Role: GIS Lead. Employer: Colorado State University. Client: National Park Service. ",
+    "role": "GIS Analyst / Developer",
+    "employer": "Colorado State University",
+    "client": "National Park Service"
+  },
+  {
+    "name": "Golden Spike National Historical Park Data Management and Web Viewer",
+    "date": "2013",
+    "description": "Created a SDE geodatabase of all available data for the national historical park. Created an interactive web mapping application for park staff to be able to visualize and use their GIS data. Incorporated the parks cultural resource data into the NPS cultural resources transfer standard.",
+    "role": "GIS Lead",
+    "employer": "Colorado State University",
+    "client": "National Park Service"
+  },
+  {
+    "name": "Sunset Crater Volcano National Monument LiDAR Review",
+    "date": "2012",
+    "description": "Analyzed LiDAR data using Merrick MARS and ArcGIS software for quality control. Created 3D visualizations and animations from the data.",
+    "role": "GIS Lead",
+    "employer": "Colorado State University",
+    "client": "National Park Service"
+  },
+  {
+    "name": "San Luis Valley Web Viewer",
+    "date": "2012",
+    "description": "Developed an interactive web application to assist regional planners in researching the possible addition of a new historical park in the San Luis Valley.",
+    "role": "GIS Lead",
+    "employer": "Colorado State University",
+    "client": "National Park Service"
+  },
+  {
+    "name": "White Sands National Monument GPS Training",
+    "date": "2012",
+    "description": "Developed ArcPad training materials and trained park staff in ArcPad software and GPS use.",
+    "role": "Trainer",
+    "employer": "Colorado State University",
+    "client": "National Park Service"
+  },
+  {
+    "name": "Sun Zia Transmission Line Visual Simulations",
+    "date": "2012",
+    "description": "Analyzed visual impacts of a proposed transmission line route near Salinas Pueblo Missions National Monument. Created 3D visual simulations of the proposed transmission line routes using Google Earth and SketchUp.",
+    "role": "GIS Lead",
+    "employer": "Colorado State University",
+    "client": "National Park Service"
+  },
+  {
+    "name": "Pecos National Historical Park Data Management and Web Viewer",
+    "date": "2011 - 2012",
+    "description": "Created a SDE geodatabase of all available data for the national historical park. Created an interactive web mapping application for park staff to be able to visualize and use their GIS data. Trained park staff in the correct use of Trimble GPS units and TerraSync software.",
+    "role": "GIS Lead and Trainer",
+    "employer": "Colorado State University",
+    "client": "National Park Service"
+  },
+  {
+    "name": "Comments Made by the NPS on the BLM Solar PEIS",
+    "date": "2011 - 2012",
+    "description": "Analyzed risks to National Park Service resources. Created exclusion areas for the BLM Solar Programmatic Environmental Impact Statement to match comments sent by the NPS to the BLM.",
+    "role": "GIS Lead",
+    "employer": "Colorado State University",
+    "client": "National Park Service"
+  },
+  {
+    "name": "Palo Alto National Historical Park Data Management and Web Viewer",
+    "date": "2011 - 2012",
+    "description": "Created a SDE geodatabase of all available data for the national historical park. Created an interactive web mapping application for monument staff to be able to visualize and use their GIS data.",
+    "role": "GIS Lead",
+    "employer": "Colorado State University",
+    "client": "National Park Service"
+  },
+  {
+    "name": "Glacier National Park Aerial Image Processing",
+    "date": "2011",
+    "description": "Processed imagery obtained from the Department of Homeland Security into a MrSID mosaic using GeoExpress.",
+    "role": "GIS Lead",
+    "employer": "Colorado State University",
+    "client": "National Park Service"
+  },
+  {
+    "name": "Fort Union National Monument Data Management and Web Viewer",
+    "date": "2011",
+    "description": "Created a SDE geodatabase of all available data for the monument. Created an interactive web mapping application for park staff to be able to visualize and use their GIS data.",
+    "role": "GIS Lead",
+    "employer": "Colorado State University",
+    "client": "National Park Service"
+  },
+  {
+    "name": "Fort Laramie National Historic Site Data Management and Web Viewer",
+    "date": "2011",
+    "description": "Created a SDE geodatabase of all available data for the historic site. Created an interactive web mapping application for park staff to be able to visualize and use their GIS data.",
+    "role": "GIS Lead",
+    "employer": "Colorado State University",
+    "client": "National Park Service"
+  },
+  {
+    "name": "Colorado National Monument Data Management and Web Viewer",
+    "date": "2011",
+    "description": "Created a SDE geodatabase of all available data for the national monument. Created an interactive web mapping application for park staff to be able to visualize and use their GIS data. Trained park staff in the correct use of Trimble GPS units and TerraSync software.",
+    "role": "GIS Lead and Trainer",
+    "employer": "Colorado State University",
+    "client": "National Park Service"
+  },
+  {
+    "name": "Niobrara 3D Seismic",
+    "date": "2010",
+    "description": "Supervised the processing field GPS data, maintaining geodatabases and creating project maps and figures for a 3D seismic mapping project in northeastern Colorado. Performed geographic analysis for cultural resource impacts and created report figures. Managed two GIS technicians who were also working on the project.",
+    "role": "GIS Lead",
+    "employer": "SWCA Environmental Consultants",
+    "client": "Geokinetics"
+  },
+  {
+    "name": "Jonah 3D Seismic",
+    "date": "2010",
+    "description": "Supervised the processing field GPS data, maintaining geodatabases and creating project maps and figures for a 3D seismic mapping project in southwestern Wyoming. Performed geographic analysis for cultural resource impacts and created report figures.",
+    "role": "GIS Lead",
+    "employer": "SWCA Environmental Consultants",
+    "client": "Green River"
+  },
+  {
+    "name": "Sage Grouse Telemetry and Habitat Analysis",
+    "date": "2010",
+    "description": "Processed telemetry data from Argos transmitters attached to sage grouse in Wyoming.  Analyzed seasonal patterns of habitat use.  Helped refine a vegetation model for the area.  Programmed a Habitat Equivalency Model (HEA) in Python.",
+    "role": "GIS Developer",
+    "employer": "SWCA Environmental Consultants",
+    "client": "Power Company of Wyoming"
+  },
+  {
+    "name": "EOG Fort Berthold Environmental Assessments",
+    "date": "2009",
+    "description": "Processed field GPS data and created project maps and figures. Analyzed impacts to archaeological sites. Analyzed impacts to natural resources.",
+    "role": "GIS Lead",
+    "employer": "SWCA Environmental Consultants",
+    "client": "EOG"
+  },
+  {
+    "name": "Zenergy Fort Berthold Environmental Assessments",
+    "date": "2009",
+    "description": "Processed field GPS data and created project maps and figures. Analyzed impacts to archaeological sites. Analyzed impacts to natural resources.",
+    "role": "GIS Lead",
+    "employer": "SWCA Environmental Consultants",
+    "client": "Zenergy"
+  },
+  {
+    "name": "USACE Missouri River Surveys",
+    "date": "2009",
+    "description": "Processed field GPS data and created project maps and figures. Analyzed impacts to archaeological sites.",
+    "role": "GIS Lead",
+    "employer": "SWCA Environmental Consultants",
+    "client": "US Army Corps of Engineers"
+  },
+  {
+    "name": "Hiawatha Environmental Impact Statement ",
+    "date": "2008 - 2009",
+    "description": "Processed field GPS data and created project maps and figures. Analyzed impacts to archaeological sites. Analyzed impacts to natural resources.",
+    "role": "GIS Lead",
+    "employer": "SWCA Environmental Consultants",
+    "client": "Questar"
+  },
+  {
+    "name": "Normally Pressured Lance Environmental Assessment",
+    "date": "2008 - 2009",
+    "description": "Processed field GPS data and created project maps and figures. Analyzed impacts to archaeological sites. Analyzed impacts to natural resources.",
+    "role": "GIS Lead",
+    "employer": "SWCA Environmental Consultants",
+    "client": "EnCana"
+  },
+  {
+    "name": "Ruby Pipeline",
+    "date": "2008",
+    "description": "Processed field GPS data and created project maps and figures. Researched previous archaeological investigations in the project area. Analyzed impacts to archaeological sites.",
+    "role": "GIS Specialist",
+    "employer": "Alpine Archaeological Consultants, Inc",
+    "client": "El Paso"
+  },
+  {
+    "name": "Cheyenne to Ault Transmission Line",
+    "date": "2007",
+    "description": "Processed field GPS data and created project maps and figures. Researched previous archaeological investigations in the project area. Analyzed impacts to archaeological sites.",
+    "role": "GIS Specialist",
+    "employer": "Alpine Archaeological Consultants, Inc",
+    "client": "WAPA"
+  },
+  {
+    "name": "Telluride to Silverton Transmission Line",
+    "date": "2007",
+    "description": "Directed a field crew for surveying and mapping the existing transmission line.  Created maps and shapefiles for the structures and alignment.",
+    "role": "GIS Specialist",
+    "employer": "Alpine Archaeological Consultants, Inc",
+    "client": "Tri-State"
+  },
+  {
+    "name": "Nucla to Sunshine Transmission Line",
+    "date": "2007",
+    "description": "Processed field GPS data and created project maps and figures. Researched previous archaeological investigations in the project area. Analyzed impacts to archaeological sites.",
+    "role": "GIS Specialist",
+    "employer": "Alpine Archaeological Consultants, Inc",
+    "client": "Tri-State"
+  },
+  {
+    "name": "Overland Pass Pipeline ",
+    "date": "2006 - 2008",
+    "description": "Processed field GPS data and created project maps and figures. Researched previous archaeological investigations in the project area. Analyzed impacts to archaeological sites.",
+    "role": "GIS Specialist",
+    "employer": "Alpine Archaeological Consultants, Inc",
+    "client": "Natural Resources Group"
+  },
+  {
+    "name": "Rocky Mountain Express Pipeline",
+    "date": "2004 - 2008",
+    "description": "Processed field GPS data and created project maps and figures. Researched previous archaeological investigations in the project area. Analyzed impacts to archaeological sites.",
+    "role": "GIS Specialist",
+    "employer": "Alpine Archaeological Consultants, Inc",
+    "client": "Natural Resources Group"
+  },
+  {
+    "name": "Bayfield to Pagosa Transmission Line",
+    "date": "2004",
+    "description": "Processed field GPS data and created project maps and figures. Researched previous archaeological investigations in the project area. Analyzed impacts to archaeological sites.",
+    "role": "GIS Specialist",
+    "employer": "Alpine Archaeological Consultants, Inc",
+    "client": "Tri-State"
+  },
+  {
+    "name": "Delta Transmission Line",
+    "date": "2004",
+    "description": "Processed field GPS data and created project maps and figures. Researched previous archaeological investigations in the project area. Analyzed impacts to archaeological sites.",
+    "role": "GIS Specialist",
+    "employer": "Alpine Archaeological Consultants, Inc",
+    "client": "Tri-State"
+  }
+]

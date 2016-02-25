@@ -1,0 +1,64 @@
+body {
+  font-family: "Open Sans", sans-serif;
+  background: #C4BCAF;
+  color: #332F2B; }
+
+h1 {
+  font-weight: bold;
+  font-size: 48px; }
+
+h2 {
+  text-align: center;
+  border-bottom: 1px solid #332F2B;
+  padding-bottom: 10px; }
+
+h3 {
+  font-size: 20px; }
+
+header, footer {
+  background: #332F2B;
+  color: #7AA6CC;
+  font-weight: 600;
+  text-align: center;
+  padding: 10px; }
+  header a, footer a {
+    color: #7AA6CC; }
+    header a:hover, footer a:hover {
+      color: #9fbfda;
+      text-decoration: none; }
+
+.about p {
+  font-size: 18px;
+  text-align: center; }
+
+.container {
+  max-width: 960px; }
+
+.lead {
+  font-style: italic; }
+
+.list-group-item, .list-inline .skill {
+  background-color: #E5DDCF;
+  border: 1px solid #332F2B;
+  border-radius: 5px;
+  -webkit-transition: all 1s;
+  transition: background-color 1s; }
+
+.list-inline .skill {
+  padding: 10px;
+  margin: 3px;
+  border-radius: 25px; }
+  .list-inline .skill:hover {
+    -webkit-animation: jello 1s;
+    animation: jello 1s; }
+
+.skill:first-child {
+  border-radius: 25px; }
+
+.skill:last-child {
+  border-radius: 25px; }
+
+.knowledge {
+  text-align: center; }
+
+/*# sourceMappingURL=main.css.map */
