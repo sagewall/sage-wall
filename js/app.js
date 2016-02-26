@@ -9,8 +9,8 @@
       var projectsCtrl;
       projectsCtrl = this;
       projectsCtrl.projects = [];
-      return $http.get('data/projects.json').success(function(data) {
-        return projectsCtrl.projects = data;
+      $http.get('data/projects.json').success(function(data) {
+        projectsCtrl.projects = data;
       });
     }
   ]);
@@ -20,8 +20,8 @@
       var reportCtrl;
       reportCtrl = this;
       reportCtrl.reports = [];
-      return $http.get('data/reports.json').success(function(data) {
-        return reportCtrl.reports = data;
+      $http.get('data/reports.json').success(function(data) {
+        reportCtrl.reports = data;
       });
     }
   ]);
@@ -31,8 +31,8 @@
       var skillCtrl;
       skillCtrl = this;
       skillCtrl.skills = [];
-      return $http.get('data/skills.json').success(function(data) {
-        return skillCtrl.skills = data;
+      $http.get('data/skills.json').success(function(data) {
+        skillCtrl.skills = data;
       });
     }
   ]);
