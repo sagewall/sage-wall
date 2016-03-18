@@ -40,14 +40,14 @@
   app.directive("projectDescription", function() {
     return {
       restrict: 'E',
-      templateUrl: "project-description.html"
+      templateUrl: "templates/project-description.html"
     };
   });
 
   app.directive("reportDescription", function() {
     return {
       restrict: 'E',
-      templateUrl: "report-description.html"
+      templateUrl: "templates/report-description.html"
     };
   });
 
