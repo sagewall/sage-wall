@@ -1,7 +1,14 @@
 [
   {
+    "name": "Vote Jeffco Map Application",
+    "date": "2016",
+    "description": "Developed a web application using Bootstrap and the ESRI JavaScript API. This application shows the location of ballot drop-off and voter service center locations in Jefferson County. It also gives turn-by-turn directions to the closest drop-off or vote center. http://jeffco.us/vote-jeffco-map.",
+    "role": "GIS Developer",
+    "employer": "Jefferson County Colorado",
+    "client": "Jefferson County Colorado"
+  },{
     "name": "jMap 3.0",
-    "date": "2014 - 2015",
+    "date": "2014 - 2016",
     "description": "Developed custom tools and maps using the ESRI JavaScript API for Jefferson County's new web mapping application, jMap 3.0. This application is built on the Incline framework developed by Northline GIS. Developed and published map services, image services, geoprocessing services and locators using ArcGIS for Server. Published maps on ArcGIS online for use in Incline.",
     "role": "GIS Developer",
     "employer": "Jefferson County Colorado",
