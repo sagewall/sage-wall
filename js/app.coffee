@@ -32,13 +32,13 @@ app.controller('SkillController', ['$http', ($http) ->
 app.directive("projectDescription", ->
   return {
     restrict: 'E',
-    templateUrl: "project-description.html"
+    templateUrl: "templates/project-description.html"
   }
 )
 
 app.directive("reportDescription", ->
   return {
     restrict: 'E',
-    templateUrl: "report-description.html"
+    templateUrl: "templates/report-description.html"
   }
 )
