@@ -47,3 +47,4 @@ app.directive("reportDescription", function() {
     templateUrl: "templates/report-description.html"
   };
 });
+
