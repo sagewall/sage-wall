@@ -1,0 +1,22 @@
+{
+  "name": "sage-wall",
+  "version": "1.0.0",
+  "description": "Sage Wall's Web Site",
+  "main": "index.html",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/sagewall/sage-wall.git"
+  },
+  "author": "Sage Wall",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/sagewall/sage-wall/issues"
+  },
+  "homepage": "https://github.com/sagewall/sage-wall#readme",
+  "devDependencies": {
+    "gulp": "^3.9.1"
+  }
+}

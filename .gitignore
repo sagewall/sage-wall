@@ -2,3 +2,13 @@
 ## JetBeans
 #############
 .idea/
+
+#############
+## Node
+#############
+node_modules/
+
+#############
+## Distribution
+#############
+dist/
